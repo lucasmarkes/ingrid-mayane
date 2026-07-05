@@ -25,11 +25,37 @@ const cinzel = Cinzel({
   display: 'swap',
 })
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ingrid-mayane.vercel.app'
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: 'Ingrid Mayane · 15 Anos',
   description:
     'Convite digital para a festa de 15 anos da Ingrid Mayane — 28 de agosto de 2026, Recife.',
-  generator: 'v0.app',
+  openGraph: {
+    type: 'website',
+    locale: 'pt_BR',
+    siteName: 'Ingrid Mayane · 15 Anos',
+    title: 'Ingrid Mayane · 15 Anos',
+    description:
+      'Guarde a data: 28 de agosto de 2026. O convite será enviado em breve!',
+    images: [
+      {
+        url: '/og/save-the-date.jpg',
+        width: 726,
+        height: 1024,
+        alt: 'Save the Date — Ingrid Mayane, 28/08/2026',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ingrid Mayane · 15 Anos',
+    description:
+      'Guarde a data: 28 de agosto de 2026. O convite será enviado em breve!',
+    images: ['/og/save-the-date.jpg'],
+  },
 }
 
 export const viewport: Viewport = {
