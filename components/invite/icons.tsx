@@ -68,6 +68,12 @@ export const IconChevron = (p: IconProps) => (
   </svg>
 )
 
+export const IconChevronDown = (p: IconProps) => (
+  <svg viewBox="0 0 24 24" aria-hidden="true" {...stroke} {...p}>
+    <path d="M6 9.5l6 6 6-6" />
+  </svg>
+);
+
 export const IconDress = (p: IconProps) => (
   <svg viewBox="0 0 24 24" aria-hidden="true" {...p}>
     <path
