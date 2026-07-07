@@ -11,8 +11,8 @@ export default function Page() {
       <div className="relative z-10 mx-auto flex max-w-[560px] flex-col gap-[clamp(26px,6vw,64px)] pt-[clamp(32px,8vw,72px)]">
         <CapaSection />
         <ConviteSection />
-        <PresentesSection />
         <RsvpSection />
+        <PresentesSection />
       </div>
     </main>
   );
