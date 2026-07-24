@@ -38,8 +38,7 @@ export const metadata: Metadata = {
     locale: 'pt_BR',
     siteName: 'Ingrid Mayane · 15 Anos',
     title: 'Ingrid Mayane · 15 Anos',
-    description:
-      'Guarde a data: 28 de agosto de 2026. O convite será enviado em breve!',
+    description: 'Convite virtual.',
     images: [
       {
         url: '/og/ingrid-mayane.jpg',
@@ -52,8 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ingrid Mayane · 15 Anos',
-    description:
-      'Guarde a data: 28 de agosto de 2026. O convite será enviado em breve!',
+    description: 'Convite virtual.',
     images: ['/og/ingrid-mayane.jpg'],
   },
 }

@@ -3,10 +3,10 @@ import { Petals } from '@/components/invite/petals'
 
 export const metadata = {
   title: 'Save the Date · Ingrid Mayane · 15 Anos',
-  description: 'Guarde a data: 28 de agosto de 2026. O convite será enviado em breve!',
+  description: 'Convite virtual.',
   openGraph: {
     title: 'Save the Date · Ingrid Mayane · 15 Anos',
-    description: 'Guarde a data: 28 de agosto de 2026. O convite será enviado em breve!',
+    description: 'Convite virtual.',
     images: [
       {
         url: '/og/save-the-date.jpg',
