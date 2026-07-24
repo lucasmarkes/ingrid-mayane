@@ -45,7 +45,7 @@ export const metadata: Metadata = {
         url: '/og/ingrid-mayane.jpg',
         width: 2177,
         height: 3080,
-        alt: 'Ingrid Mayane — bailarina em pose clássica, 15 anos',
+        alt: 'Ingrid Mayane',
       },
     ],
   },
