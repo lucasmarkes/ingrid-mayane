@@ -42,10 +42,10 @@ export const metadata: Metadata = {
       'Guarde a data: 28 de agosto de 2026. O convite será enviado em breve!',
     images: [
       {
-        url: '/og/save-the-date.jpg',
-        width: 726,
-        height: 1024,
-        alt: 'Save the Date — Ingrid Mayane, 28/08/2026',
+        url: '/og/ingrid-mayane.jpg',
+        width: 2177,
+        height: 3080,
+        alt: 'Ingrid Mayane — bailarina em pose clássica, 15 anos',
       },
     ],
   },
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: 'Ingrid Mayane · 15 Anos',
     description:
       'Guarde a data: 28 de agosto de 2026. O convite será enviado em breve!',
-    images: ['/og/save-the-date.jpg'],
+    images: ['/og/ingrid-mayane.jpg'],
   },
 }
 
